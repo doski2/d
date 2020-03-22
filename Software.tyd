@@ -4,19 +4,19 @@ Software
     {
     OperatingSystem
         [
-        "Operating System"
-        "The Operating System is the largest piece of software in Software Inc.
-Most software needs an Operating System to run on. When people stop buying a line of Operating Systems, they will also stop buying software for them."
+        "Sistema operativo"
+        "El sistema operativo es el software más grande de Software Inc.
+La mayoría del software necesita un sistema operativo para ejecutarse. Cuando las personas dejan de comprar una línea de sistemas operativos, también dejan de comprar software para ellos.."
         ]
     Features
         [
-        Feature { System "System" }
+        Feature { System "Sistema" }
         Feature
             {
             Multitasking
                 [
-                "Multitasking"
-                "Let your users pretend they can multitask by having several applications open at any one time"
+                "Multitarea"
+                "Permita que sus usuarios pretendan que pueden realizar múltiples tareas al tener varias aplicaciones abiertas al mismo tiempo"
                 ]
             }
         Feature
@@ -24,77 +24,77 @@ Most software needs an Operating System to run on. When people stop buying a lin
             Touch
                 [
                 "Touch"
-                "You can never have enough greasy finger prints on a surface"
+                "Nunca puede tener suficientes huellas dactilares grasientas en una superficie"
                 ]
             }
-        Feature { Useraccounts "User accounts" }
+        Feature { Useraccounts "Cuentas de usuario" }
         Feature
             {
             Name  "Plug'n'Play"
             Value
                 [
                 "Plug'n'Play"
-                "Allow the user to interact with the operating system in any number of ways"
+                "Permitir al usuario interactuar con el sistema operativo de muchas maneras"
                 ]
             }
-        Feature { Fileencryption "File encryption" }
-        Feature { Systemrecovery "System recovery" }
+        Feature { Fileencryption "Cifrado de archivos" }
+        Feature { Systemrecovery "Recuperación del sistema" }
         Feature
             {
-            Virtualization [ "Virtualization"; "I put an OS in your OS, etc." ]
+            Virtualization [ "Virtualización"; "Puse un sistema operativo en su sistema operativo, etc.." ]
             }
-        Feature { Codesigning "Code signing" }
-        Feature { Interface "Interface" }
-        Feature { Customthemes "Custom themes" }
-        Feature { Windowingsystem "Windowing system" }
-        Feature { Unifiedsearch "Unified search" }
-        Feature { Themes "Themes" }
+        Feature { Codesigning "Firma de código" }
+        Feature { Interface "Interfaz" }
+        Feature { Customthemes "Temas personalizados" }
+        Feature { Windowingsystem "Sistema de ventanas" }
+        Feature { Unifiedsearch "Búsqueda unificada" }
+        Feature { Themes "Temas" }
         Feature { Widgets "Widgets" }
-        Feature { Notifications "Notifications" }
-        Feature { 3Drendering "3D rendering" }
+        Feature { Notifications "Notificaciones" }
+        Feature { 3Drendering "Renderizado 3D" }
         Feature { Audio "Audio" }
-        Feature { Surroundsound "Surround sound" }
-        Feature { Speechrecognition "Speech recognition" }
+        Feature { Surroundsound "Sonido envolvente" }
+        Feature { Speechrecognition "Reconocimiento de voz" }
         Feature
             {
             Microphonesurveillance
                 [
-                "Microphone surveillance"
-                "Listen in on your users' conversations to find and fix bugs before they are reported, at the risk of getting caught"
+                "Vigilancia con micrófono"
+                "LAsista a las conversaciones de sus usuarios para encontrar y corregir errores antes de que sean reportados, con el riesgo de ser descubierto"
                 ]
             }
         Feature
             {
             Network
                 [
-                "Network"
-                "How will anonymous people troll each other all over the world without this handy feature?"
+                "Red"
+                "¿Cómo se trollearán las personas anónimas en todo el mundo sin esta práctica característica?"
                 ]
             }
         Feature
             {
             Auto-update
                 [
-                "Auto-update"
-                "Patch bugs, secure against malware and restart in the middle of an unsaved 60 page essay"
+                "Auto actualización"
+                "Parchear errores, proteger contra malware y reiniciar en medio de un ensayo de 60 páginas no guardado"
                 ]
             }
-        Feature { Appstore "App store" }
-        Feature { Cloudbackup "Cloud backup" }
+        Feature { Appstore "Tienda de aplicaciones" }
+        Feature { Cloudbackup "Respaldo en la nube" }
         ]
     Categories
         [
         Category
             {
-            Computer [ "Computer"; "For the table" ]
+            Computer [ "Ordenadores"; "Para la mesa" ]
             }
         Category
             {
-            Console [ "Console"; "For the TV" ]
+            Console [ "Consola"; "Para la tele" ]
             }
         Category
             {
-            Phone [ "Phone"; "For the pocket" ]
+            Phone [ "Teléfono"; "Para el bolsillo" ]
             }
         ]
     }
@@ -103,44 +103,44 @@ Software
     {
     2DEditor
         [
-        "2D Editor"
-        "Program that allows you to handle 2 dimensional arrays of color information"
+        "Editor 2D"
+        "Programa que le permite manejar matrices bidimensionales de información de color."
         ]
     Features
         [
         Feature
             {
-            2Dgraphics [ "2D graphics"; "Seems pretty essential for this software type" ]
+            2Dgraphics [ "Gráficos 2D ";" Parece bastante esencial para este tipo de software" ]
             }
         Feature
             {
-            Vectorgraphics [ "Vector graphics"; "Put some lines inside your pixels" ]
+            Vectorgraphics [ "Gráficos vectoriales"; "Pon algunas líneas dentro de tus píxeles" ]
             }
         Feature
             {
-            Proceduralshapes [ "Procedural shapes"; "Who wants to draw a rectangle manually?" ]
+            Proceduralshapes [ "Formas procesales"; "¿Quién quiere dibujar un rectángulo manualmente?" ]
             }
-        Feature { Layers "Layers" }
-        Feature { Dynamicbrushes "Dynamic brushes" }
-        Feature { Levelsandcurves "Levels and curves" }
+        Feature { Layers "Capas" }
+        Feature { Dynamicbrushes "Pinceles dinámicos" }
+        Feature { Levelsandcurves "Niveles y curvas" }
         Feature
             {
-            Imageeffects [ "Image effects"; "Needs more swirl" ]
+            Imageeffects [ "Efectos de imagen"; "Necesita más remolino" ]
             }
-        Feature { Textrendering "Text rendering" }
-        Feature { Brushpresets "Brush presets" }
-        Feature { Brushstrokesmoothing "Brush stroke smoothing" }
-        Feature { Clipart "Clip art" }
+        Feature { Textrendering "Representación de texto" }
+        Feature { Brushpresets "Pinceles preestablecidos" }
+        Feature { Brushstrokesmoothing "Alisado de trazo de pincel" }
+        Feature { Clipart "Clipart" }
         Feature
             {
-            Liquify [ "Liquify"; "Stretch and pull your pixels" ]
+            Liquify [ "Liquify"; "Estira y tira de tus píxeles" ]
             }
         Feature
             {
             Healingbrush
                 [
-                "Healing brush"
-                "Remove zits, spots, specks, people, buildings, etc."
+                "Pincel corrector"
+                "Eliminar zits, manchas, motas, personas, edificios, etc."
                 ]
             }
         Feature
@@ -148,7 +148,7 @@ Software
             Beautify
                 [
                 "Beautify"
-                "Flatter people by making them look better in photos, so they are less likely to refund your product"
+                "Halague a las personas haciéndolas lucir mejor en las fotos, por lo que es menos probable que reembolsen su producto"
                 ]
             }
         Feature { System "System" }
@@ -156,80 +156,80 @@ Software
             {
             RAWimageimport
                 [
-                "RAW image import"
-                "If you need to pull some extra color from your colors"
+                "Importación de imagen RAW"
+                "Si necesita extraer un poco de color adicional de sus colores"
                 ]
             }
-        Feature { Drawingtabletsupport "Drawing tablet support" }
+        Feature { Drawingtabletsupport "Soporte de tableta de dibujo" }
         ]
     }
 
 Software
     {
-    3DEditor [ "3D Editor"; "Points in space, basically" ]
+    3DEditor [ "Editor 3D"; "Puntos en el espacio, básicamente" ]
     Features
         [
-        Feature { 3Dgraphics "3D graphics" }
+        Feature { 3Dgraphics "Gráficos en 3D" }
         Feature
             {
-            Sculpting [ "Sculpting"; "Pretend the points are clay" ]
+            Sculpting [ "Sculpting"; "Finge que los puntos son de arcilla" ]
             }
         Feature
             {
-            Pathtracing [ "Path tracing"; "Shoot rays into the points to make a picture" ]
+            Pathtracing [ "Trazado de ruta"; "Dispara rayos en los puntos para hacer una foto" ]
             }
         Feature
             {
-            Skinning [ "Skinning"; "Make the points move themselves" ]
+            Skinning [ "Skinning"; "Haz que los puntos se muevan solos" ]
             }
         Feature
             {
-            Proceduralobjects [ "Procedural objects"; "Generate points automagically" ]
+            Proceduralobjects [ "Objetos de procedimiento"; "Genera puntos automáticamente" ]
             }
         Feature
             {
-            Physicssimulation [ "Physics simulation"; "Make the points interact" ]
+            Physicssimulation [ "Simulacion fisica"; "Haz que los puntos interactúen" ]
             }
         Feature
             {
-            Liquidsimulation [ "Liquid simulation"; "Spill points all over the place" ]
+            Liquidsimulation [ "Simulacion liquida"; "Puntos de derrame por todo el lugar" ]
             }
         Feature
             {
-            Hairsimulation [ "Hair simulation"; "Make lines between the points" ]
+            Hairsimulation [ "Simulación de cabello"; "Haz líneas entre los puntos." ]
             }
         Feature
             {
-            Particles [ "Particles"; "Spray points all over the place" ]
+            Particles [ "Particles"; "Puntos de rociado por todo el lugar" ]
             }
         Feature
             {
-            Booleanoperations [ "Boolean operations"; "If point and point then point" ]
+            Booleanoperations [ "Boolean operations"; "Si punto y punto, entonces punto" ]
             }
         Feature
             {
-            Meshsubdivision [ "Mesh subdivision"; "Add points between points" ]
+            Meshsubdivision [ "Subdivisión de malla"; "Agregar puntos entre puntos" ]
             }
         Feature
             {
-            Inversekinematics [ "Inverse kinematics"; "Position points neatly between other points" ]
+            Inversekinematics [ "Cinemática inversa"; "Posicione puntos cuidadosamente entre otros puntos" ]
             }
         Feature
             {
             Bitmining
                 [
                 "Bit mining"
-                "Mine bitcoin using your users' GPU to make an extra {Currency:0.1} per active user, at the risk of getting caught"
+                "Extraiga bitcoin utilizando la GPU de sus usuarios para hacer un {Currency: 0.1} adicional por usuario activo, a riesgo de ser atrapado"
                 ]
             }
-        Feature { System "System" }
+        Feature { System "Sistema" }
         Feature
             {
-            GPUrendering [ "GPU rendering"; "Use point hardware to make points faster" ]
+            GPUrendering [ "Procesamiento de GPU"; "Use hardware de puntos para hacer puntos más rápido" ]
             }
         Feature
             {
-            Motioncapture [ "Motion capture"; "Convert real life motion to point motion" ]
+            Motioncapture [ "Captura de movimiento"; "Convierta el movimiento de la vida real en movimiento puntual" ]
             }
         ]
     }
@@ -238,48 +238,48 @@ Software
     {
     AudioTool
         [
-        "Audio Tool"
-        "The audio tool is for recording and mixing sound effects and music."
+        "Herramienta de audio"
+        "La herramienta de audio es para grabar y mezclar efectos de sonido y música.."
         ]
     Features
         [
         Feature
             {
-            Audio [ "Audio"; "The things that make the sound" ]
+            Audio [ "Audio"; "Las cosas que hacen el sonido" ]
             }
-        Feature { Synthesizer "Synthesizer" }
-        Feature { Delayandreverb "Delay and reverb" }
-        Feature { EQandcompression "EQ and compression" }
-        Feature { Ampsimulation "Amp simulation" }
-        Feature { Wavepitchandstretch "Wave pitch and stretch" }
+        Feature { Synthesizer "Sintetizador" }
+        Feature { Delayandreverb "Retardo y reverberación" }
+        Feature { EQandcompression "EQ y compresión" }
+        Feature { Ampsimulation "Simulación de amplificador" }
+        Feature { Wavepitchandstretch "Paso de onda y estiramiento" }
         Feature
             {
-            Autotune [ "Autotune"; "This is a thing" ]
+            Autotune [ "Autoajuste"; "Esto es una cosa" ]
             }
-        Feature { Synthesizerpresets "Synthesizer presets" }
-        Feature { Soundbank "Sound bank" }
+        Feature { Synthesizerpresets "Presintonías de sintetizador" }
+        Feature { Soundbank "Banco de sonido" }
         Feature
             {
-            Interface [ "Interface"; "Provides the user with visuals for their aurals" ]
+            Interface [ "Interfaz"; "Proporciona al usuario imágenes para sus auditivos." ]
             }
-        Feature { Multi-trackediting "Multi-track editing" }
-        Feature { Channelmixer "Channel mixer" }
-        Feature { Noteeditor "Note editor" }
-        Feature { Spectrumanalyzer "Spectrum analyzer" }
-        Feature { Racksimulation "Rack simulation" }
+        Feature { Multi-trackediting "Edición multipista" }
+        Feature { Channelmixer "Mezclador de canales" }
+        Feature { Noteeditor "Editor de notas" }
+        Feature { Spectrumanalyzer "Analizador de espectro" }
+        Feature { Racksimulation "Simulación de rack" }
         Feature
             {
-            System [ "System"; "Interactions with the underlying system" ]
+            System [ "Sistema"; "Interacciones con el sistema subyacente." ]
             }
-        Feature { Audiocodecs "Audio codecs" }
-        Feature { MIDIdeviceinput "MIDI device input" }
-        Feature { Effectplug-ins "Effect plug-ins" }
+        Feature { Audiocodecs "Códecs de audio" }
+        Feature { MIDIdeviceinput "Entrada de dispositivo MIDI" }
+        Feature { Effectplug-ins "Plug-ins de efectos" }
         Feature
             {
             Includedsoundcard
                 [
-                "Included soundcard"
-                "Physical sales bring in an extra 50% of the sale price, but copies cost an extra {Currency:10} to produce"
+                "Tarjeta de sonido incluida"
+                "Las ventas físicas aportan un 50% extra del precio de venta, pero las copias cuestan {Moneda: 10} adicionales para producir"
                 ]
             }
         ]
@@ -287,71 +287,71 @@ Software
 
 Software
     {
-    Game       [ "Game"; "Interactive art." ]
+    Game       [ "Juego"; "Arte interactivo" ]
     Features
         [
-        Feature { Gamedesign "Game design" }
-        Feature { Openworld "Open world" }
+        Feature { Gamedesign "Diseño de juego" }
+        Feature { Openworld "Mundo abierto" }
         Feature
             {
-            Physics [ "Physics"; "Bouncy stuff" ]
+            Physics [ "Física"; "Cosas hinchables" ]
             }
         Feature
             {
             Dialogtrees
                 [
-                "Dialog trees"
-                "Give the player a voice, and then make their character say something slightly different in-game"
+                "Árboles de diálogo"
+                "Dale una voz al jugador y luego haz que su personaje diga algo ligeramente diferente en el juego"
                 ]
             }
         Feature
             {
             Branchingstory
                 [
-                "Branching story"
-                "Multiple different paths all leading to the same destination"
+                "Historia secundaria"
+                "Múltiples caminos diferentes que conducen al mismo destino"
                 ]
             }
         Feature
             {
-            Modsupport [ "Mod support"; "You can mod this feature out of the game if you want" ]
+            Modsupport [ "Soporte Mod"; "Puedes modificar esta función fuera del juego si quieres" ]
             }
-        Feature { Customizablecharacter "Customizable character" }
-        Feature { 2DGraphics "2D Graphics" }
+        Feature { Customizablecharacter "Personaje personalizable" }
+        Feature { 2DGraphics "Gráficos 2D" }
         Feature
             {
-            AdvancedHUD [ "Advanced HUD"; "Add some more GUI to your game" ]
+            AdvancedHUD [ "HUD avanzado"; "Agrega más GUI a tu juego" ]
             }
         Feature
             {
-            Post-processing [ "Post-processing"; "\#Bloom" ]
+            Post-processing [ "Postprocesamiento"; "\#Bloom" ]
             }
-        Feature { 3DGraphics "3D Graphics" }
-        Feature { Shadows "Shadows" }
-        Feature { Cutscenes "Cutscenes" }
+        Feature { 3DGraphics "Gráficos 3D" }
+        Feature { Shadows "Oscuridad" }
+        Feature { Cutscenes "Escenas de corte" }
         Feature
             {
-            VR [ "VR"; "Virtual Reality" ]
+            VR [ "VR"; "Realidad virtual" ]
             }
-        Feature { Facialanimations "Facial animations" }
-        Feature { Proceduralgeneration "Procedural generation" }
+        Feature { Facialanimations "Animaciones faciales" }
+        Feature { Proceduralgeneration "Generación procesal" }
         Feature
             {
             Wackyphysics
                 [
-                "Wacky physics"
-                "Boost your launch marketing with viral videos by introducing some bugs to your physics objects"
+                "Física loca"
+                "Aumente su comercialización de lanzamiento con videos virales al introducir algunos errores en sus objetos físicos"
                 ]
             }
         Feature { Audio "Audio" }
-        Feature { Recordeddialog "Recorded dialog" }
-        Feature { Adaptivemusic "Adaptive music" }
+        Feature { Recordeddialog "Diálogo grabado" }
+        Feature { Adaptivemusic "Música adaptativa" }
         Feature
             {
             Digitalexclusivemusic
                 [
-                "Digital exclusive music"
-                "Convert some of your physical sales to digital, loosing some of your physical sales in the process"
+                "Música digital exclusiva"
+                "Convierta algunas de sus ventas físicas a digitales, perdiendo algunas de sus ventas físicas en el proceso"
                 ]
             }
         Feature
@@ -359,21 +359,21 @@ Software
             Multiplayer
                 [
                 "Multiplayer"
-                "Facilitate the screaming of obscenities by teenagers from all over the world"
+                "Facilite los gritos de obscenidades de los adolescentes de todo el mundo."
                 ]
             }
         Feature
             {
-            MMO [ "MMO"; "Massively Multiplayer Online" ]
+            MMO [ "MMO"; "Multijugador Masivo en Línea" ]
             }
         ]
     Categories
         [
         Category
             {
-            RPG [ "RPG"; "Role Playing Game" ]
+            RPG [ "RPG"; "Juego de rol" ]
             }
-        Category { Adventure "Adventure" }
+        Category { Adventure "Aventuras" }
         Category
             {
             Simulation [ "Simulation"; "You're playing one!" ]
@@ -381,101 +381,101 @@ Software
         Category { Sports "Sports" }
         Category
             {
-            RTS [ "RTS"; "Real Time Strategy" ]
+            RTS [ "RTS"; "Estrategia en tiempo real" ]
             }
         Category
             {
-            FPS [ "FPS"; "First Person Shooter" ]
+            FPS [ "FPS"; "Tirador en primera persona" ]
             }
         ]
     }
 
 Software
     {
-    OfficeSoftware [ "Office Software"; "For all your officing needs" ]
+    OfficeSoftware [ "Software de oficina"; "Para todas sus necesidades de oficio" ]
     Features
         [
         Feature
             {
-            Interface [ "Interface"; "Can't make office documents if you can't see them" ]
+            Interface [ "Interfaz"; "No puede hacer documentos de oficina si no puede verlos" ]
             }
         Feature
             {
             Equationrendering
                 [
-                "Equation rendering"
-                "y=(1/(σ·sqrt(2·π)))e^(-(x-μ)^2/(2·σ^2))... Doesn't look good, does it?"
+                "Representación de ecuaciones"
+                "y=(1/(σ·sqrt(2·π)))e^(-(x-μ)^2/(2·σ^2))... No se ve bien, ¿verdad?"
                 ]
             }
         Feature
             {
             Autopagelayout
                 [
-                "Auto page layout"
-                "I.e. spending 30 minutes trying to make the picture fit in the place"
+                "Diseño de página automático"
+                "Es decir. pasar 30 minutos tratando de que la imagen encaje en el lugar"
                 ]
             }
-        Feature { Chartsandgraphs "Charts and graphs" }
+        Feature { Chartsandgraphs "Tablas y gráficos" }
         Feature
             {
-            Clipart [ "Clipart"; "*Stick figure pointing at chart*" ]
+            Clipart [ "Clipart ";" * Figura de palo apuntando al gráfico *" ]
             }
         Feature
             {
             Animations
                 [
                 "Animations"
-                "Just slides and text gliding in from every which way and angle"
+                "Solo diapositivas y texto deslizándose desde todas las direcciones y ángulos"
                 ]
             }
-        Feature { Slidetemplates "Slide templates" }
-        Feature { Vectorgraphics "Vector graphics" }
+        Feature { Slidetemplates "Plantillas de diapositivas" }
+        Feature { Vectorgraphics "Gráficos vectoriales" }
         Feature
             {
-            Virtualassistant [ "Virtual assistant"; "Helps bug reports slowly resolve on their own" ]
+            Virtualassistant [ "Asistente virtual"; "Ayuda a que los informes de errores se resuelvan lentamente por sí mismos" ]
             }
-        Feature { System "System" }
+        Feature { System "Sistema" }
         Feature
             {
-            Spellcheck [ "Spellcheck"; "Make anyone seem even more competent" ]
+            Spellcheck [ "Corrector ortográfico"; "Hacer que alguien parezca aún más competente" ]
             }
         Feature
             {
             Interactiveslides
                 [
-                "Interactive slides"
-                "At this point you might as well make a website"
+                "Diapositivas interactivas"
+                "En este punto, también podrías hacer un sitio web"
                 ]
             }
         Feature
             {
-            Dictionary [ "Dictionary"; "Make anyone seem competent" ]
+            Dictionary [ "Diccionario"; "Hacer que alguien parezca competente" ]
             }
         Feature
             {
-            Thesaurus [ "Thesaurus"; "Make anyone seem more competent" ]
+            Thesaurus [ "Thesaurus"; "Hacer que alguien parezca más competente" ]
             }
-        Feature { Financialmathlibrary "Financial math library" }
-        Feature { Geometricmathlibrary "Geometric math library" }
+        Feature { Financialmathlibrary "Biblioteca de matemática financiera" }
+        Feature { Geometricmathlibrary "Biblioteca matemática geométrica" }
         Feature
             {
             Datemanipulation
                 [
-                "Date manipulation"
-                "What is today minus 10. June 2014? You're looking at it"
+                "Manipulación de la fecha"
+                "¿Qué es hoy menos 10. junio de 2014? Lo estas mirando"
                 ]
             }
         Feature { Scripting "Scripting" }
-        Feature { Network "Network" }
-        Feature { Cloudbackup "Cloud backup" }
-        Feature { Databaseconnections "Database connections" }
-        Feature { Audioplayback "Audio playback" }
+        Feature { Network "Red" }
+        Feature { Cloudbackup "Respaldo en la nube" }
+        Feature { Databaseconnections "Conexiones de bases de datos" }
+        Feature { Audioplayback "Reproducción de audio" }
         Feature
             {
             Soundeffectlibrary
                 [
-                "Sound effect library"
-                "Bring some much unneeded excitement to your presentations!"
+                "Biblioteca de efectos de sonido"
+                "¡Trae un poco de emoción innecesaria a tus presentaciones!"
                 ]
             }
         ]
@@ -486,97 +486,97 @@ Software
     Antivirus
         [
         "Antivirus"
-        "Protecting computers from digital troublemakers since it became profitable to do so."
+        "Proteger los ordenadores de los alborotadores digitales desde que se volvió rentable hacerlo."
         ]
     Features
         [
         Feature
             {
-            Systemscanning [ "System scanning"; "Protect against local threats" ]
+            Systemscanning [ "Escaneo del sistema"; "Protegerse contra las amenazas locales." ]
             }
         Feature
             {
             Filescanner
                 [
-                "File scanner"
-                "Scan for viruses in the background causing hilarious file locks randomly"
+                "Escáner de archivos"
+                "Analice en busca de virus en el fondo que causen bloqueos de archivos divertidos al azar"
                 ]
             }
         Feature
             {
             Applicationscanner
                 [
-                "Application scanner"
-                "Scan for malware in the background causing hilarious crashes randomly"
+                "Escáner de aplicaciones"
+                "Analice en busca de malware en segundo plano que cause accidentes divertidos al azar"
                 ]
             }
         Feature
             {
-            Anti-theft [ "Anti-theft"; "Why not let your computer know when it's been stolen" ]
+            Anti-theft [ "Anti-robo"; "¿Por qué no avisas a tu ordenador cuando te la robaron?" ]
             }
         Feature
             {
             Fileencryption
                 [
-                "File encryption"
-                "Better keep that secret cookie recipe under lock!"
+                "Cifrado de archivos"
+                "¡Mejor mantenga esa receta secreta de galletas bajo llave!"
                 ]
             }
         Feature
             {
-            Interface [ "Interface"; "Protect against usability threats" ]
+            Interface [ "Interfaz"; "Protege contra amenazas de usabilidad" ]
             }
-        Feature { Malwarealerts "Malware alerts" }
-        Feature { Hackingalerts "Hacking alerts" }
-        Feature { Filequarantine "File quarantine" }
+        Feature { Malwarealerts "Alertas de malware" }
+        Feature { Hackingalerts "Hackear alertas" }
+        Feature { Filequarantine "Cuarentena de archivo" }
         Feature
             {
             Passwordmanagement
                 [
-                "Password management"
-                "Avoid filling your inbox with password resets"
+                "Gestión de contraseñas"
+                "Evite llenar su bandeja de entrada con restablecimientos de contraseña"
                 ]
             }
         Feature
             {
-            Networking [ "Networking"; "Protect against external threats" ]
+            Networking [ "Redes"; "Proteger contra amenazas externas Proteger contra amenazas externas" ]
             }
-        Feature { Portblocking "Port blocking" }
+        Feature { Portblocking "Puerto de bloqueo" }
         Feature
             {
             Applicationaccesscontrol
                 [
-                "Application access control"
-                "Solitaire Extreme does not need to access your system files"
+                "Control de acceso a la aplicación"
+                "Solitaire Extreme no necesita acceder a los archivos de su sistema"
                 ]
             }
-        Feature { IPfiltering "IP filtering" }
+        Feature { IPfiltering "Filtrado de IP" }
         Feature
             {
             Anti-spam
                 [
                 "Anti-spam"
-                "Receive less golden opportunities from your long lost relatives"
+                "Recibe menos oportunidades de oro de tus parientes perdidos"
                 ]
             }
         Feature
             {
-            Adblocker [ "Ad blocker"; "Remove those things that make news sites unreadable" ]
+            Adblocker [ "Ad blocker"; "Elimine aquellas cosas que hacen que los sitios de noticias sean ilegibles" ]
             }
         Feature
             {
             Virusdatabase
                 [
                 "Virus database"
-                "Automagically keep your users' virus definitions up to date"
+                "Mantenga actualizadas automáticamente las definiciones de virus de sus usuarios"
                 ]
             }
         Feature
             {
             Datamining
                 [
-                "Datamining"
-                "Sell your users' data to make an extra {Currency:0.25} per active user, at the risk of getting caught"
+                "Procesamiento de datos"
+                "Venda los datos de sus usuarios para obtener una {Moneda: 0.25} adicional por usuario activo, con el riesgo de ser descubierto"
                 ]
             }
         ]
@@ -584,72 +584,72 @@ Software
 
 Software
     {
-    LogisticsApplication "Logistics Application"
+    LogisticsApplication "Aplicación Logistica"
     Features
         [
-        Feature { Commandline "Command line" }
-        Feature { Third-partyintegration "Third-party integration" }
-        Feature { Paymentprocessing "Payment processing" }
-        Feature { Businessoptimizationalgoritms "Business optimization algoritms" }
-        Feature { Userinterface "User interface" }
-        Feature { Prettyicons "Pretty icons" }
-        Feature { Databasemanagement "Database management" }
-        Feature { Productdatabase "Product database" }
-        Feature { Inventorymanagement "Inventory management" }
-        Feature { Employeemanagement "Employee management" }
+        Feature { Commandline "Línea de comando" }
+        Feature { Third-partyintegration "Integración de terceros" }
+        Feature { Paymentprocessing "Procesando pago" }
+        Feature { Businessoptimizationalgoritms "Algoritmos de optimización empresarial" }
+        Feature { Userinterface "Interfaz de usuario" }
+        Feature { Prettyicons "Iconos bonitos" }
+        Feature { Databasemanagement "Gestión de base de datos" }
+        Feature { Productdatabase "Base de datos del producto" }
+        Feature { Inventorymanagement "La gestión del inventario" }
+        Feature { Employeemanagement "Gestión de empleados" }
         ]
     }
 
 Software
     {
-    Website  "Website"
+    Website  "Sitio web"
     Features
         [
-        Feature { Staticpages "Static pages" }
+        Feature { Staticpages "Páginas estáticas" }
         Feature { Icons "Icons" }
-        Feature { Pagelayout "Page layout" }
-        Feature { Pagestyling "Page styling" }
-        Feature { Customfont "Custom font" }
-        Feature { Dynamicpages "Dynamic pages" }
-        Feature { Useraccounts "User accounts" }
-        Feature { Messageboard "Message board" }
-        Feature { Store "Store" }
-        Feature { Backendapplication "Back end application" }
+        Feature { Pagelayout "Diseño de página" }
+        Feature { Pagestyling "Estilo de página" }
+        Feature { Customfont "Fuente personalizada" }
+        Feature { Dynamicpages "Páginas dinámicas" }
+        Feature { Useraccounts "Cuentas de usuario" }
+        Feature { Messageboard "Tablero de mensajes" }
+        Feature { Store "Tienda" }
+        Feature { Backendapplication "Aplicación de fondo" }
         ]
     }
 
 Software
     {
-    GameAssets "Game Assets"
+    GameAssets "Activos del juego"
     Features
         [
         Feature { 2Dart "2D art" }
-        Feature { Userinterfacegraphics "User interface graphics" }
+        Feature { Userinterfacegraphics "Gráficos de interfaz de usuario" }
         Feature { Conceptart "Concept art" }
-        Feature { Soundeffects "Sound effects" }
-        Feature { Music "Music" }
-        Feature { WrittenDialogue "Written Dialogue" }
+        Feature { Soundeffects "Efectos de sonido" }
+        Feature { Music "Musica" }
+        Feature { WrittenDialogue "Diálogo escrito" }
         Feature { 3Dmodels "3D models" }
-        Feature { Textures "Textures" }
-        Feature { Environments "Environments" }
-        Feature { Riggingandanimation "Rigging and animation" }
+        Feature { Textures "Texturas" }
+        Feature { Environments "Ambientes" }
+        Feature { Riggingandanimation "Aparejo y animación" }
         ]
     }
 
 Software
     {
-    EmbeddedSystem "Embedded System"
+    EmbeddedSystem "Sistema Integrado"
     Features
         [
-        Feature { Clock "Clock" }
-        Feature { Thermostat "Thermostat" }
-        Feature { Camera "Camera" }
+        Feature { Clock "Reloj" }
+        Feature { Thermostat "Termostato" }
+        Feature { Camera "Cámara" }
         Feature { Speaker "Speaker" }
         Feature { Motor "Motor" }
         Feature { Display "Display" }
         Feature { GPS "GPS" }
-        Feature { Hardwareinterface "Hardware interface" }
-        Feature { Userinterface "User interface" }
+        Feature { Hardwareinterface "Interfaz de hardware" }
+        Feature { Userinterface "Interfaz de usuario" }
         ]
     }
 
