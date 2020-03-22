@@ -1,0 +1,198 @@
+Furniture
+    {
+    Elevator
+        [
+        "Ascensor"
+        "Coloque los ascensores uno encima del otro para conectar las habitaciones en diferentes pisos"
+        ]
+    Stairs                 [ "Escalera"; "" ]
+    LeftQuarterTurnStairs  [ "Escaleras de cuarto de vuelta a la izquierda"; "" ]
+    RightQuarterTurnStairs [ "Escaleras de cuarto de vuelta a la derecha"; "" ]
+    LeftTurnStairs         [ "Escaleras a la izquierda"; "" ]
+    RightTurnStairs        [ "Escaleras a la derecha"; "" ]
+    Table                  [ "Mesa ";" Ponga cosas y sillas alrededor"; "Base" ]
+    GlassTable             [ "Mesa de vidrio"; "Disfruta de la vista de tus pies mientras trabajas"; "Marco" ]
+    2mEndTable             [ "Mesa final de 2 m"; "Aproximadamente redondo"; "Base" ]
+    3mEndTable             [ "Mesa final de 3 m"; "Aún más redondo"; "Base" ]
+    CheapChair             [ "Silla barata"; "Incómoda silla de plástico"; "Asiento" ]
+    OfficeChair            [ "Silla de oficina"; "Bonita silla tapizada, sin ruedas."; "Asiento" ]
+    ExecutiveChair         [ "Presidente ejecutivo"; "Para plato máximo"; "Asiento" ]
+    WaitingChairs          [ "Sillas de espera"; ""; "Marco" ]
+    Couch                  [ "Sofá"; "Living Room Inc." ]
+    Bench                  [ "Banco"; "Es un banco"; "Base" ]
+    SmallHeater            [ "Pequeño calentador"; "Humilde unidad de calefacción para sus necesidades básicas de oficina"; "Base" ]
+    CeilingFan
+        [
+        "Ventilador de techo"
+        "Ventilador de techo ingenioso, que no solo se ve genial, sino que también enfría la habitación. Puede causar contaminación acústica.."
+        "Base"
+        ]
+    Radiator
+        [
+        "Radiador"
+        "Funciona con calefacción urbana costosa, pero es mucho más efectivo que un calentador pequeño."
+        "Base"
+        ]
+    Ventilation
+        [
+        "Ventilación"
+        "Pequeña unidad de ventilación que toma aire directamente del otro lado de la pared.."
+        "Base"
+        ]
+    CentralHeating
+        [
+        "Calefacción central"
+        "Unidad de calefacción central de resistencia industrial para calentar edificios enteros."
+        "Base"
+        ]
+    ACUnit
+        [
+        "AC Unit"
+        "Unidad de aire acondicionado industrial para enfriar complejos de edificios completos. Tiene que ser colocado sobre el suelo."
+        "Base"
+        ]
+    Industrialventilation
+        [
+        "Ventilación industrial"
+        "Este ventilador fue diseñado para enfriar una habitación para acomodar servidores, es decir, no personas"
+        "Base"
+        ]
+    OldComputer            [ "Ordenadores vieja"; "¡Más píxeles de los que puedes contar con una mano!"; "Caja" ]
+    90sComputer            [ "Ordenadores de los 90"; ""; "Caja" ]
+    Laptop                 [ "Ordenador portátil"; ""; "Caja" ]
+    ModernComputer
+        [
+        "Ordenadores modernos"
+        "Ordenadores modernos para todas sus necesidades informáticas modernas"
+        "Base"
+        ]
+    HoloComputer
+        [
+        "HoloComputer"
+        "¡Bienvenido al futuro! Donde todo es un poco menos conveniente"
+        "Hologram"
+        ]
+    Cubiclewall
+        [
+        "Pared del cubículo"
+        "Coloque estas paredes de manera inteligente para reducir el ruido alrededor de los espacios de trabajo. Tenga en cuenta que las paredes de los cubículos aumentan el aislamiento de los empleados."
+        ]
+    Lamp
+        [
+        "Lámpara"
+        "Asegúrese de que sus empleados puedan ver cuándo están trabajando hasta tarde o si no puede molestarse en colocar ventanas"
+        "Sombra"
+        ]
+    WallLamp               [ "Lámpara de pared"; "" ]
+    DeskLamp               [ "Lámpara de escritorio"; "Para mejoras de iluminación localizadas"; "Base" ]
+    FloorLamp              [ "Lámpara de piso"; "Hace luz, pero también está en el camino"; "Sombra" ]
+    Fluorescentlamp
+        [
+        "Lámpara fluorescente"
+        "Sin embargo, es perfecto para iluminar habitaciones sombreadas en el sótano con poco mantenimiento, pero no tan bueno para nada"
+        "Sombra"
+        ]
+    OutdoorLamp
+        [
+        "Lámpara al aire libre"
+        "Lámpara acogedora para todas sus necesidades de evitar tropezar en la oscuridad al aire libre!"
+        "Base"
+        ]
+    FireAlarm
+        [
+        "Alarma de incendios"
+        "Alerta a todos en el edificio si se inicia un incendio en la misma habitación"
+        ]
+    Sprinkler              [ "Aspersor"; "" ]
+    Securitycamera         [ "Cámara de seguridad"; "" ]
+    VendingMachine         [ "Máquina expendedora"; "Generador de alimentos" ]
+    Fridge                 [ "Refrigerador"; "Genera comida para cocineros para cocinar." ]
+    Stove
+        [
+        "Estufa"
+        "Los cocineros usarán estufas para calentar los alimentos. Una estufa por cocinero."
+        "Base"
+        ]
+    ServingTray
+        [
+        "Bandeja de servir"
+        "Los cocineros llenarán las bandejas con alimentos terminados para que los empleados puedan comerlos"
+        ]
+    InstantCoffee
+        [
+        "Café instantáneo"
+        "Empapas un poco de polvo marrón en agua caliente y supongo que te sientes menos cansado en algún momento?"
+        "Pot"
+        ]
+    Coffee                 [ "café"; "Su máquina de café molido estándar"; "Base" ]
+    EspressoMachine
+        [
+        "Cafetera Espresso"
+        "Brinda café de alta calidad al ser ruidoso y consumir grandes cantidades de agua, electricidad y mantenimiento."
+        "Base"
+        ]
+    Toilet                 [ "Baño"; "Poop machine"; "Base" ]
+    Sink                   [ "Lavabo"; ""; ""; "Marco" ]
+    WaterCooler            [ "Enfriador de agua"; "Un lugar para que los empleados socialicen."; "Sombra" ]
+    Painting               [ "Pintura"; "Una pintura cursi para animar la oficina"; "Marco" ]
+    TV                     [ "TV"; ""; "Frame" ]
+    Bookshelf              [ "Estante para libros"; "Completo con libros!"; "Base" ]
+    Receptiondesk          [ "Recepción"; ""; "Base" ]
+    FloorPlant             [ "Planta de piso"; "Una planta encantadora"; "Pot" ]
+    TablePlant             [ "Planta de mesa"; "Árbol de los bonsais de baja poli"; "Pot" ]
+    TableCactus            [ "Mesa Cactus"; ""; "Pot" ]
+    BigPlant
+        [
+        "Planta grande"
+        "Ocupa mucho espacio, pero los empleados están de acuerdo en que lo compensa luciendo bien"
+        "Pot"
+        ]
+    Smalltree              [ "Árbol pequeño"; ""; "Pot" ]
+    Smallpinetree          [ "Pequeño pino"; ""; "Pot" ]
+    Clock                  [ "Reloj"; "Máquina del tiempo!(No es una máquina del tiempo real)"; "Frame" ]
+    SmallServer            [ "Pequeño servidor"; "Un ordenador normal, pero con más internet"; "Casing" ]
+    MediumServer           [ "Servidor medio"; "Como un servidor pequeño, pero más mediano"; "Casing" ]
+    TowerServer            [ "Servidor de la torre"; "Una torre de alto rendimiento (no una torre real)"; "Casing" ]
+    ServerRack             [ "Rack para servidores"; "Si un Ordenadores no es suficiente"; "Casing" ]
+    BigServerRack          [ "Big Server Rack"; "Cuando no puedes obtener suficiente servidor"; "Casing" ]
+    Phone                  [ "Teléfono"; "¿A quien vas a llamar? Apoyo!"; "Base" ]
+    DrawingTablet
+        [
+        "Tableta de dibujo"
+        "Mucho más fácil que ingresar manualmente coordenadas de píxeles"
+        "Base"
+        ]
+    Calculator             [ "Calculadora"; "Las calculadoras son las mejores amigas de un programador"; "Base" ]
+    Inbox
+        [
+        "Bandeja de entrada"
+        "Ayude a mantener a sus empleados organizados, especialmente útil para las personas que no han oído hablar del correo electrónico."
+        "Box"
+        ]
+    SmallProductPrinter
+        [
+        "Impresora de productos pequeños"
+        "Una pequeña impresora flexible para imprimir sus productos."
+        ]
+    MediumProductPrinter   [ "Impresora de producto medio"; "Una impresora de disco mediana" ]
+    LargeProductPrinter
+        [
+        "Impresora de productos grandes"
+        "Imprime copias más pequeñas para que los mensajeros puedan llevar más"
+        ]
+    Pallet
+        [
+        "Pallet"
+        "Puede admitir hasta 27 cajas de copias. Necesita estar en la misma habitación que una impresora"
+        ]
+    Standarddoor           [ "Puerta estándar"; "Es una puerta ..." ]
+    Casedopening           [ "Apertura de la carcasa"; "" ]
+    Slidingglassdoor       [ "Puertas correderas de cristal"; "Puerta que funciona como una ventana." ]
+    Doubledoors            [ "Puertas dobles"; "Más puertas por compra de puerta" ]
+    Doubleglassdoor        [ "Doble puerta de cristal"; "" ]
+    Smallwindow            [ "Ventana pequeña"; "Completamente inútil si se coloca entre habitaciones." ]
+    Largewindow            [ "Ventana grande"; "Si quieres aún más ventana" ]
+    Widewindow             [ "Amplia ventana"; "Para la experiencia de pantalla panorámica" ]
+    Archedgate             [ "Puerta arqueada"; "" ]
+    Opengate               [ "Puerta abierta"; "" ]
+    }
